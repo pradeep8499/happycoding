@@ -1,0 +1,22 @@
+{
+	"query": {
+		"filtered": {
+			"query": {
+				"bool": {
+					"should": [{
+						"query_string": {
+							"query": "${query expression}"
+						}
+					}]
+				}
+			}
+		}
+	},
+	"size": "${size}",
+	"sort": [{
+		"_timestamp": {
+			"order": "desc",
+			"ignore_unmapped": true
+		}
+	}]
+}

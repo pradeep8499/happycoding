@@ -1,0 +1,11 @@
+{
+	"settings": {
+	},
+	"mappings": {
+		"_default_": {
+			"_timestamp": {
+				"enabled": true			
+			}
+		}
+	}
+}
