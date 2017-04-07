@@ -5,7 +5,7 @@ Run the gradle build command (using the Docker QuickStart Terminal that came in 
 
 ./gradlew build buildDocker
  
-Run the new image in a Docker container:
+Run the new image in a docker container:
 
 docker run -p 8080:8080 -t target/elasticsearchdemo
 
